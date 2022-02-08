@@ -15,10 +15,6 @@ Users should be able to:
 - Calculate the correct tip and total cost of the bill per person
 - Switch between a light mode and a darkmode
 
-### Screenshot
-
-![plot](images/tip calculator.png)
-
 
 ### Links
 
