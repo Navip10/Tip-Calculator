@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <img src="./images/logo.svg" alt="">
+    <div class="container">
+      <div class="leftBox">
+        <div class="bill">
+          <p>Bill</p>
+
+          <div id="inputBox">
+            <img src="./images/icon-dollar.svg" alt="" />
+            <input id="input" type="number" />
+          </div>
+        </div>
+        <div class="tip">
+          <p> Select Tip %</p>
+          <div class="grid-container">
+            <button class="grid-item">5% </button>
+            <button class="grid-item">10%</button>
+            <button class="grid-item">15%</button>
+            <button class="grid-item">25%</button>
+            <button class="grid-item">50%</button>
+            <input id="custom" class="grid-item" type="number" placeholder="Custom">
+         
+          </div>
+          </div>
+        <div class="people">
+          <p>Number of People</p>
+          <div class="peopleContainer">
+            <img src="./images/icon-person.svg" alt="" />
+            <input id="peopleInput" type="number" />
+          </div>
+        </div>
+      </div>
+
+      <div class="rightBox">
+        <div class="billTotal"> 
+          <div class="tipAmount">
+            <div class="tipPerson">
+              <p> Tip Amount </p>
+              <p>/ person</p>
+            </div>
+            
+            <h1 id="tip-per-person">$0.00</h1>
+          </div>
+          
+        
+        <div class="total">
+          <div class="totalPerson">
+            <p>Total</p>
+            <p>/ person</p> 
+          </div>
+          
+          <h1 id="total-per-person">$0.00</h1>
+        </div>
+        
+        </div>
+        
+        
+        <div class="resetBtn">
+          <button onclick="reset()">RESET</button>
+        </div>
+      </div>
+    </div>
+<div class="themeContainer">  
+  <img id= "themeButton"src="./images/icon-moon.svg" alt="">
+  
+</div>
+<p id="mode">Light Mode</p>
+   
+    <script src="script.js"></script>
+   
+  </body>
+</html>
