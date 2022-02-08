@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Screenshot
 
-![image](images/tip calculator.png)
+![plot](images/tip calculator.png)
 
 
 ### Links
